@@ -1,8 +1,10 @@
 # Hi, I'm Ladislav Lettovsky
 
-AI/ML practitioner focused on building production-grade agentic AI systems — multi-agent orchestration, RAG pipelines, and safety-first design.
+**PhD, Industrial Engineering** · Georgia Institute of Technology
+**MBA** · Cornell Johnson Graduate School of Management
+**Agentic AI Specialization** · UT Austin Postgraduate Program in AI/ML
 
-I have completed the **UT Austin Postgraduate Program in AI/ML** (Agentic AI specialization).
+Strategic technology executive turned AI/ML practitioner — 15 years at Sabre Corporation, Airline IT solutions, VP of Technical Sales, Director of M&A ($40M+ portfolio), Research & Development (holder of 2 US patents in airline network optimization). Now building production-grade agentic AI systems with multi-agent orchestration, RAG pipelines, and safety-first design.
 
 ## Tech Stack
 
@@ -58,7 +60,14 @@ A RAG pipeline that enables analysts to extract insights from lengthy business r
 
 ---
 
+## Background
+
+- **VP, Head of Sales Engineering** at Sabre Corporation (2022–2024) — Led airline IT solutions technical sales, 20+ solution architects, exceeded global sales target 2x
+- **Director, New Business Ventures & M&A** at Sabre Corporation (2009–2022) — Led LATAM Airlines Group PSS implementation, 3 acquisitions + 1 divestiture ($40M+)
+- **2 US Patents** in airline network design and passenger reaccommodation
+- **Languages**: Czech (native) · English (native)
+
 ## Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ladislav-lettovsky/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ladislavlettovsky/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github&logoColor=white)](https://github.com/ladislav-lettovsky)
