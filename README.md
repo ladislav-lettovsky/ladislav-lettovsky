@@ -1,7 +1,7 @@
 # Hi, I'm Ladislav Lettovsky
 
-**PhD, Industrial Engineering** · Georgia Institute of Technology
-**MBA** · Cornell Johnson Graduate School of Management
+**PhD, Industrial Engineering** · Georgia Institute of Technology |
+**MBA** · Cornell Johnson Graduate School of Management |
 **Agentic AI Specialization** · UT Austin Postgraduate Program in AI/ML
 
 Strategic technology executive turned AI/ML practitioner — 15 years at Sabre Corporation, Airline IT solutions, VP of Technical Sales, Director of M&A ($40M+ portfolio), Research & Development (holder of 2 US patents in airline network optimization). Now building production-grade agentic AI systems with multi-agent orchestration, RAG pipelines, and safety-first design.
