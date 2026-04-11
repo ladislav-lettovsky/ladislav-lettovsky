@@ -8,18 +8,41 @@ Strategic technology executive turned AI/ML practitioner — 15 years at Sabre C
 
 ## Tech Stack
 
-![Python](https://img.shields.io/badge/Python-3.14-3776AB?style=flat&logo=python&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-Agent_Framework-1C3C3C?style=flat&logo=langchain&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-RAG_Framework-1C3C3C?style=flat&logo=langchain&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-412991?style=flat&logo=openai&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector_Store-FF6F00?style=flat)
-![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?style=flat&logo=sqlite&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-Embeddings-FFD21E?style=flat&logo=huggingface&logoColor=black)
-![PyTorch](https://img.shields.io/badge/PyTorch-ML_Framework-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![LangSmith](https://img.shields.io/badge/LangSmith-Observability-1C3C3C?style=flat)
-![Git](https://img.shields.io/badge/Git-Version_Control-F05032?style=flat&logo=git&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-121212?style=for-the-badge)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-5A31F4?style=for-the-badge)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![LangSmith](https://img.shields.io/badge/LangSmith-111111?style=for-the-badge)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge)
+![PyMuPDF](https://img.shields.io/badge/PyMuPDF-2C2C2C?style=for-the-badge)
+![BM25](https://img.shields.io/badge/BM25-4B5563?style=for-the-badge)
+![uv](https://img.shields.io/badge/uv-DE5FE9?style=for-the-badge)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
-## AI Portfolio
+## AI Portfolio & Tooling
+
+### [ai-toolkit](https://github.com/ladislav-lettovsky/ai-toolkit)
+
+A local-first AI CLI toolkit for creating, running, evaluating, and managing agent and RAG projects with reproducible structure and metadata-aware lifecycle management.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat-square)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+
+- Built a local-first CLI platform for scaffolding and managing AI agent and RAG projects
+- Added project lifecycle commands including inspect, eval, doctor, clean, run, and upgrade
+- Implemented agent features such as memory, logs, typed tools, safe file writing, and config layering
+- Added RAG project generation with ingestion, chunk indexing, retrieval, and evaluation support
+
+---
 
 ### [AI-Powered Last Mile Delivery Exception Handling](https://github.com/ladislav-lettovsky/AI-Last-Mile-Delivery-Exception-Handling)
 
