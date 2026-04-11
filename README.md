@@ -4,7 +4,20 @@
 **MBA** · Cornell Johnson Graduate School of Management |
 **Agentic AI Specialization** · UT Austin Postgraduate Program in AI/ML
 
-Strategic technology executive turned AI/ML practitioner — 15 years at Sabre Corporation, Airline IT solutions, VP of Technical Sales, Director of M&A ($40M+ portfolio), Research & Development (holder of 2 US patents in airline network optimization). Now building production-grade agentic AI systems with multi-agent orchestration, RAG pipelines, and safety-first design.
+Strategic technology executive turned AI/ML practitioner — 15 years at Sabre Corporation (Airline IT solutions), VP of Technical Sales, Director of M&A ($40M+ portfolio), Research & Development (holder of 2 US patents in airline network optimization).
+
+---
+
+## 🚀 AI Engineer | Agentic Systems | RAG | Tooling
+
+> Building structured, local-first AI systems — from agents to RAG to developer tooling.
+
+I focus on designing and building:
+
+- Agent architectures (tool use, memory, routing)
+- Retrieval-Augmented Generation (RAG) systems
+- Local-first AI development workflows
+- Evaluation and observability for LLM applications
 
 ## Tech Stack
 
