@@ -57,7 +57,7 @@ A local-first AI CLI toolkit for creating, running, evaluating, and managing age
 
 ---
 
-### [AI-Powered Last Mile Delivery Exception Handling](https://github.com/ladislav-lettovsky/AI-Last-Mile-Delivery-Exception-Handling)
+### [ai-delivery-exception-system](https://github.com/ladislav-lettovsky/ai-delivery-exception-system)
 
 A multi-agent system that detects, triages, resolves, and communicates last-mile delivery exceptions using LangGraph orchestration.
 
@@ -70,7 +70,7 @@ A multi-agent system that detects, triages, resolves, and communicates last-mile
 
 ---
 
-### [AI-Powered EHR Patient Portal Assistant](https://github.com/ladislav-lettovsky/AI-EHR-Patient-Portal-Assistant)
+### [ai-ehr-assistant](https://github.com/ladislav-lettovsky/ai-ehr-assistant)
 
 A guardrailed, patient-facing AI assistant that explains Electronic Health Records in plain language with strict safety enforcement.
 
@@ -83,7 +83,7 @@ A guardrailed, patient-facing AI assistant that explains Electronic Health Recor
 
 ---
 
-### [AI-Powered RAG Business Report Analyst](https://github.com/ladislav-lettovsky/AI-RAG-Business-Report-Analyst)
+### [ai-rag-knowledge-analyst](https://github.com/ladislav-lettovsky/ai-rag-knowledge-analyst)
 
 A RAG pipeline that enables analysts to extract insights from lengthy business reports through natural-language queries.
 
