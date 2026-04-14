@@ -61,39 +61,39 @@ A local-first AI CLI toolkit for creating, running, evaluating, and managing age
 
 ### [ai-delivery-exception-system](https://github.com/ladislav-lettovsky/ai-delivery-exception-system)
 
-A multi-agent system that detects, triages, resolves, and communicates last-mile delivery exceptions using LangGraph orchestration.
+A production-ready multi-agent system that detects, triages, resolves, and communicates last-mile delivery exceptions using LangGraph orchestration.
 
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square) ![GPT-4o](https://img.shields.io/badge/GPT--4o-412991?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=flat-square) ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square) ![GPT-4o](https://img.shields.io/badge/GPT--4o-412991?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=flat-square) ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/CI-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 
 - Multi-agent orchestration with supervisor pattern and specialized worker agents
 - Vector similarity search (Chroma + HuggingFace embeddings) for resolution matching
 - End-to-end pipeline: detection → triage → resolution → customer notification
-- LangSmith observability for tracing and debugging agent behavior
+- CLI with structured JSON output, terminal reports, and configurable logging — **43 tests passing**
 
 ---
 
 ### [ai-ehr-assistant](https://github.com/ladislav-lettovsky/ai-ehr-assistant)
 
-A guardrailed, patient-facing AI assistant that explains Electronic Health Records in plain language with strict safety enforcement.
+A production-ready, guardrailed patient-facing AI assistant that explains Electronic Health Records in plain language with strict safety enforcement.
 
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square) ![GPT-4o-mini](https://img.shields.io/badge/GPT--4o--mini-412991?style=flat-square) ![GPT-4o](https://img.shields.io/badge/GPT--4o-412991?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square) ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square) ![GPT-4o-mini](https://img.shields.io/badge/GPT--4o--mini-412991?style=flat-square) ![GPT-4o](https://img.shields.io/badge/GPT--4o-412991?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square) ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/CI-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 
 - ReAct agent with 4-node state machine: agent → tool → validate → policy
 - 11 patient-scoped tools with deterministic safety routing (12 policy rules)
-- 7-dimension validation rubric scored by GPT-4o — **10/10 test cases passed**
-- Multilingual support, health literacy adaptation, and PHI protection
+- 7-dimension validation rubric scored by GPT-4o — **37 tests passing, 10/10 test cases**
+- Multilingual support, health literacy adaptation, PHI protection, and CLI with structured JSON output
 
 ---
 
 ### [ai-rag-knowledge-analyst](https://github.com/ladislav-lettovsky/ai-rag-knowledge-analyst)
 
-A RAG pipeline that enables analysts to extract insights from lengthy business reports through natural-language queries.
+A production-ready RAG pipeline that enables analysts to extract insights from lengthy business reports through natural-language queries.
 
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=flat-square) ![GPT-4o-mini](https://img.shields.io/badge/GPT--4o--mini-412991?style=flat-square) ![PyMuPDF](https://img.shields.io/badge/PyMuPDF-PDF_Processing-blue?style=flat-square) ![BM25](https://img.shields.io/badge/BM25-Hybrid_Retrieval-green?style=flat-square)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=flat-square) ![GPT-4o-mini](https://img.shields.io/badge/GPT--4o--mini-412991?style=flat-square) ![PyMuPDF](https://img.shields.io/badge/PyMuPDF-PDF_Processing-blue?style=flat-square) ![BM25](https://img.shields.io/badge/BM25-Hybrid_Retrieval-green?style=flat-square) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/CI-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 
 - Full RAG pipeline: PDF → chunking → embedding → Chroma → retrieval → generation
 - Three-mode comparison: raw LLM vs. prompt-engineered vs. RAG (grounded)
-- Hybrid retrieval infrastructure (BM25 + vector similarity)
+- CLI with `--mode`, `--evaluate`, `--report` flags and structured JSON output — **12 tests passing**
 - RAG achieves **1.0 groundedness** where plain LLM scores 0.0
 
 ---
