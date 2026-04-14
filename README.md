@@ -6,7 +6,7 @@
 
 Strategic technology executive turned AI/ML practitioner — 15 years at Sabre Corporation (Airline IT solutions), VP of Technical Sales, Director of M&A ($40M+ portfolio), Research & Development (holder of 2 US patents in airline network optimization).
 
-[![Ask Ladislav's AI](ai_career_agent.png "Ask Ladislav's AI")](https://www.perplexity.ai/computer/a/ladislav-lettovsky-ai-career-a-t26rvurTSzK3dtAzfrfHEw)
+[![Ask Ladislav's AI](ai_career_agent.png "Ask Ladislav's AI")](https://www.perplexity.ai/computer/a/ladislav-lettovsky-ai-career-a-zMnsyBXCR2GufAO3Nve6Vg)
 
 ---
 
