@@ -101,7 +101,7 @@ A production-ready RAG pipeline that enables analysts to extract insights from l
 ## Background
 
 - **VP, Head of Sales Engineering** at Sabre Corporation (2022–2024) — Led airline IT solutions technical sales, 20+ solution architects, exceeded global sales target 2x
-- **Director, New Business Ventures & M&A** at Sabre Corporation (2009–2022) — Led LATAM Airlines Group PSS implementation, 3 acquisitions + 1 divestiture ($40M+)
+- **Director, New Business Ventures & M&A** at Sabre Corporation (2009–2022) — Lead consultant for LATAM Airlines Group PSS implementation, 3 acquisitions + 1 divestiture ($40M+)
 - **2 US Patents** in airline network design and passenger reaccommodation
 - **Languages**: Czech (native) · English (native)
 
