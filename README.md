@@ -109,7 +109,6 @@ The scaffold that promotes modern AI-native repo architecture: Fork → Rename �
 - Opinionated AGENTS.md / CLAUDE.md / `.cursor/rules` setup — agent-ready from commit 1
 - Pre-configured `just check` pipeline (ruff + ty + pytest + pre-commit), CI green on first push
 - 8-step post-fork checklist, dependency-ordered — rename package first because `just check` fails until you do
-- Distilled from four production AI repos in my portfolio above
 
 ---
 
