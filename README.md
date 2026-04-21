@@ -98,6 +98,21 @@ A production-ready RAG pipeline that enables analysts to extract insights from l
 
 ---
 
+## 🚀 Scaffold to Jump-Start New AI Project
+
+### [ai-project-template](https://github.com/ladislav-lettovsky/ai-project-template) — GitHub Template
+
+The scaffold that promotes modern AI-native repo architecture: Fork → Rename → Develop → Production-ready Deployment.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat-square) ![just](https://img.shields.io/badge/just-4B5563?style=flat-square) ![pre--commit](https://img.shields.io/badge/pre--commit-FAB040?style=flat-square&logo=precommit&logoColor=white) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/CI-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+
+- Opinionated AGENTS.md / CLAUDE.md / `.cursor/rules` setup — agent-ready from commit 1
+- Pre-configured `just check` pipeline (ruff + ty + pytest + pre-commit), CI green on first push
+- 8-step post-fork checklist, dependency-ordered — rename package first because `just check` fails until you do
+- Distilled from four production AI repos in my portfolio above
+
+---
+
 ## Background
 
 - **VP, Head of Sales Engineering** at Sabre Corporation (2022–2024) — Led airline IT solutions technical sales, 20+ solution architects, exceeded global sales target 2x
