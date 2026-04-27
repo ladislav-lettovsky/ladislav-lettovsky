@@ -51,6 +51,7 @@ A local-first AI CLI toolkit for creating, running, evaluating, and managing age
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ladislav-lettovsky/ai-toolkit)
 
 - Built a local-first CLI platform for scaffolding and managing AI agent and RAG projects
 - Added project lifecycle commands including inspect, eval, doctor, clean, run, and upgrade
@@ -63,7 +64,14 @@ A local-first AI CLI toolkit for creating, running, evaluating, and managing age
 
 A production-ready multi-agent system that detects, triages, resolves, and communicates last-mile delivery exceptions using LangGraph orchestration.
 
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square) ![GPT-4o](https://img.shields.io/badge/GPT--4o-412991?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=flat-square) ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/CI-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
+![GPT-4o](https://img.shields.io/badge/GPT--4o-412991?style=flat-square)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=flat-square)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/CI-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ladislav-lettovsky/ai-delivery-exception-system)
 
 - Multi-agent orchestration with supervisor pattern and specialized worker agents
 - Vector similarity search (Chroma + HuggingFace embeddings) for resolution matching
@@ -76,7 +84,14 @@ A production-ready multi-agent system that detects, triages, resolves, and commu
 
 A production-ready, guardrailed patient-facing AI assistant that explains Electronic Health Records in plain language with strict safety enforcement.
 
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square) ![GPT-4o-mini](https://img.shields.io/badge/GPT--4o--mini-412991?style=flat-square) ![GPT-4o](https://img.shields.io/badge/GPT--4o-412991?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square) ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/CI-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
+![GPT-4o-mini](https://img.shields.io/badge/GPT--4o--mini-412991?style=flat-square)
+![GPT-4o](https://img.shields.io/badge/GPT--4o-412991?style=flat-square)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/CI-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ladislav-lettovsky/ai-ehr-assistant)
 
 - ReAct agent with 4-node state machine: agent → tool → validate → policy
 - 11 patient-scoped tools with deterministic safety routing (12 policy rules)
@@ -89,7 +104,14 @@ A production-ready, guardrailed patient-facing AI assistant that explains Electr
 
 A production-ready RAG pipeline that enables analysts to extract insights from lengthy business reports through natural-language queries.
 
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=flat-square) ![GPT-4o-mini](https://img.shields.io/badge/GPT--4o--mini-412991?style=flat-square) ![PyMuPDF](https://img.shields.io/badge/PyMuPDF-PDF_Processing-blue?style=flat-square) ![BM25](https://img.shields.io/badge/BM25-Hybrid_Retrieval-green?style=flat-square) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/CI-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=flat-square)
+![GPT-4o-mini](https://img.shields.io/badge/GPT--4o--mini-412991?style=flat-square)
+![PyMuPDF](https://img.shields.io/badge/PyMuPDF-PDF_Processing-blue?style=flat-square)
+![BM25](https://img.shields.io/badge/BM25-Hybrid_Retrieval-green?style=flat-square)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/CI-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ladislav-lettovsky/ai-rag-knowledge-analyst)
 
 - Full RAG pipeline: PDF → chunking → embedding → Chroma → retrieval → generation
 - Three-mode comparison: raw LLM vs. prompt-engineered vs. RAG (grounded)
@@ -104,7 +126,13 @@ A production-ready RAG pipeline that enables analysts to extract insights from l
 
 The scaffold that promotes modern AI-native repo architecture: Fork → Rename → Develop → Production-ready Deployment.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat-square) ![just](https://img.shields.io/badge/just-4B5563?style=flat-square) ![pre--commit](https://img.shields.io/badge/pre--commit-FAB040?style=flat-square&logo=precommit&logoColor=white) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/CI-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat-square)
+![just](https://img.shields.io/badge/just-4B5563?style=flat-square)
+![pre--commit](https://img.shields.io/badge/pre--commit-FAB040?style=flat-square&logo=precommit&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/CI-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ladislav-lettovsky/ai-project-template)
 
 - Opinionated AGENTS.md / CLAUDE.md / `.cursor/rules` setup — agent-ready from commit 1
 - Pre-configured `just check` pipeline (ruff + ty + pytest + pre-commit), CI green on first push
