@@ -23,22 +23,55 @@ I focus on designing and building:
 
 ## Tech Stack
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-5A31F4?style=for-the-badge)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-121212?style=for-the-badge)
-![LangSmith](https://img.shields.io/badge/LangSmith-111111?style=for-the-badge)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge)
-![PyMuPDF](https://img.shields.io/badge/PyMuPDF-2C2C2C?style=for-the-badge)
-![BM25](https://img.shields.io/badge/BM25-4B5563?style=for-the-badge)
-![uv](https://img.shields.io/badge/uv-DE5FE9?style=for-the-badge)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![OpenAI](https://custom-icon-badges.demolab.com/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/api/)
+[![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)](https://www.langchain.com/)
+[![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)](https://www.langchain.com/langgraph)
+[![LangSmith](https://img.shields.io/badge/LangSmith-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)](https://smith.langchain.com/)
+[![ChromaDB](https://img.shields.io/badge/ChromaDB-blueviolet?style=for-the-badge&logo=databricks)](https://github.com/chroma-core/chroma)
+[![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)](https://sqlite.org)
+[![Hugging Face](https://img.shields.io/badge/huggingface-%23FFD21E.svg?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org)
+[![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)](https://github.com/pydantic/pydantic)
+[![PyMuPDF](https://img.shields.io/badge/PyMuPDF-0096D6?style=for-the-badge&logo=python&logoColor=white)](https://github.com/pymupdf/pymupdf)
+[![tiktoken](https://custom-icon-badges.demolab.com/badge/tiktoken-412991?style=for-the-badge&logo=openai&logoColor=white)](https://github.com/openai/tiktoken)
+[![BM25](https://img.shields.io/badge/BM25%20Ranking-4B5563?style=for-the-badge)](https://en.wikipedia.org/wiki/Okapi_BM25)
+[![uv](https://img.shields.io/badge/uv-DE5FE9?style=for-the-badge&logo=astral&logoColor=white)](https://github.com/astral-sh/uv)
+[![ty](https://img.shields.io/badge/ty-DE5FE9?style=for-the-badge&logo=astral&logoColor=white)](https://github.com/astral-sh/ty)
+[![ruff](https://img.shields.io/badge/ruff-DE5FE9?style=for-the-badge&logo=astral&logoColor=white)](https://github.com/astral-sh/ruff)
+[![just](https://img.shields.io/badge/just-000000?style=for-the-badge&logo=just&logoColor=white)](https://github.com/casey/just)
+[![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)](https://docs.pytest.org/)
+[![Git](https://img.shields.io/badge/Git-2088FF?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
+[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://docs.github.com/en/actions)
+
+
+## 🚀 Scaffold to Jump-Start New AI Project
+
+### [ai-project-template](https://github.com/ladislav-lettovsky/ai-project-template) — GitHub Template
+
+A production-ready Python scaffold for **AI-native development**. Multi-agent governance (Planner → Executor → Reviewer), lint-enforced specs, and defense-in-depth guardrails — every PR is a verifiable trace, not a vibe. Fork → Plan → Execute → Review → Ship.
+
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)](https://docs.claude.com/en/docs/claude-code/overview)
+[![Codex](https://img.shields.io/badge/Codex-412991?style=flat-square&logo=openai&logoColor=white)](https://github.com/openai/codex)
+[![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat-square&logo=astral&logoColor=white)](https://github.com/astral-sh/uv)
+[![ty](https://img.shields.io/badge/ty-DE5FE9?style=flat-square&logo=astral&logoColor=white)](https://github.com/astral-sh/ty)
+[![ruff](https://img.shields.io/badge/ruff-DE5FE9?style=flat-square&logo=astral&logoColor=white)](https://github.com/astral-sh/ruff)
+[![just](https://img.shields.io/badge/just-000000?style=flat-square&logo=just&logoColor=white)](https://github.com/casey/just)
+[![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)](https://docs.pytest.org/)
+[![pre-commit](https://img.shields.io/badge/pre--commit-FAB040?style=flat-square&logo=precommit&logoColor=white)](https://pre-commit.com/)
+[![Git](https://img.shields.io/badge/Git-2088FF?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/)
+[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/ladislav-lettovsky/ai-project-template/actions/workflows/ci.yml)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ladislav-lettovsky/ai-project-template)
+
+- **Three-agent system with runtime-enforced role separation** — Planner (Claude Code, read-only Plan Mode), Executor (Codex, workspace-write sandbox), Reviewer (Codex, read-only sandbox); roles enforced by the runtime, not by prompts
+- **Spec-driven flow** — every PR cites a lint-enforced Markdown spec under `docs/specs/` with risk tiers (T0–T3), requirement → test mappings, and red-zone assessment; `lint_spec.py` rejects any spec missing a required section
+- **Defense-in-depth tripwires** — Claude Code lifecycle hooks (PreToolUse → red-zone block, UserPromptSubmit → branch-name guard, Stop → spec-lint guard) layer beneath pre-commit, `just check`, and CI; no safety property has a single point of failure
+- **Schema-validated Reviewer output** — Codex Reviewer emits JSON Schema 2020-12 findings (severity, type, evidence, requirement IDs, confidence) — never prose; malformed reviews auto-route to human, never silently merge
+- **Prompt-injection scanner** runs as part of `just check` against every LLM-input artifact in the repo (specs, persisted MCP outputs, web fetches)
+- **Phased blueprint with explicit exit criteria** — Phases 1–3 implemented (subagents + hooks, spec discipline, reviewer); Phases 4–6 (deterministic Router, telemetry, semi-autonomous endgame) road-mapped in `docs/blueprint.md`
+
+---
 
 ## AI Portfolio & Tooling
 
@@ -46,11 +79,15 @@ I focus on designing and building:
 
 A local-first AI CLI toolkit for creating, running, evaluating, and managing agent and RAG projects with reproducible structure and metadata-aware lifecycle management.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat-square)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![OpenAI](https://custom-icon-badges.demolab.com/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)](https://openai.com/api/)
+[![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat-square&logo=astral&logoColor=white)](https://github.com/astral-sh/uv)
+[![ty](https://img.shields.io/badge/ty-DE5FE9?style=flat-square&logo=astral&logoColor=white)](https://github.com/astral-sh/ty)
+[![ruff](https://img.shields.io/badge/ruff-DE5FE9?style=flat-square&logo=astral&logoColor=white)](https://github.com/astral-sh/ruff)
+[![just](https://img.shields.io/badge/just-000000?style=flat-square&logo=just&logoColor=white)](https://github.com/casey/just)
+[![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)](https://docs.pytest.org/)
+[![Git](https://img.shields.io/badge/Git-2088FF?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/)
+[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/ladislav-lettovsky/ai-toolkit/actions/workflows/ci.yml)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ladislav-lettovsky/ai-toolkit)
 
 - Built a local-first CLI platform for scaffolding and managing AI agent and RAG projects
@@ -64,13 +101,24 @@ A local-first AI CLI toolkit for creating, running, evaluating, and managing age
 
 A production-ready multi-agent system that detects, triages, resolves, and communicates last-mile delivery exceptions using LangGraph orchestration.
 
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
-![GPT-4o](https://img.shields.io/badge/GPT--4o-412991?style=flat-square)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=flat-square)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/CI-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![OpenAI](https://custom-icon-badges.demolab.com/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)](https://openai.com/api/)
+[![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)](https://www.langchain.com/)
+[![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)](https://www.langchain.com/langgraph)
+[![LangSmith](https://img.shields.io/badge/LangSmith-1C3C3C?style=flat-square&logo=langchain&logoColor=white)](https://smith.langchain.com/)
+[![ChromaDB](https://img.shields.io/badge/ChromaDB-blueviolet?style=flat-square&logo=databricks)](https://github.com/chroma-core/chroma)
+[![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat-square&logo=sqlite&logoColor=white)](https://sqlite.org)
+[![Hugging Face](https://img.shields.io/badge/huggingface-%23FFD21E.svg?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org)
+[![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)](https://github.com/pydantic/pydantic)
+[![PyMuPDF](https://img.shields.io/badge/PyMuPDF-0096D6?style=flat-square&logo=python&logoColor=white)](https://github.com/pymupdf/pymupdf)
+[![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat-square&logo=astral&logoColor=white)](https://github.com/astral-sh/uv)
+[![ty](https://img.shields.io/badge/ty-DE5FE9?style=flat-square&logo=astral&logoColor=white)](https://github.com/astral-sh/ty)
+[![ruff](https://img.shields.io/badge/ruff-DE5FE9?style=flat-square&logo=astral&logoColor=white)](https://github.com/astral-sh/ruff)
+[![just](https://img.shields.io/badge/just-000000?style=flat-square&logo=just&logoColor=white)](https://github.com/casey/just)
+[![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)](https://docs.pytest.org/)
+[![Git](https://img.shields.io/badge/Git-2088FF?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/)
+[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/ladislav-lettovsky/ai-delivery-exception-system/actions/workflows/ci.yml)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ladislav-lettovsky/ai-delivery-exception-system)
 
 - Multi-agent orchestration with supervisor pattern and specialized worker agents
@@ -84,13 +132,19 @@ A production-ready multi-agent system that detects, triages, resolves, and commu
 
 A production-ready, guardrailed patient-facing AI assistant that explains Electronic Health Records in plain language with strict safety enforcement.
 
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
-![GPT-4o-mini](https://img.shields.io/badge/GPT--4o--mini-412991?style=flat-square)
-![GPT-4o](https://img.shields.io/badge/GPT--4o-412991?style=flat-square)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/CI-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![OpenAI](https://custom-icon-badges.demolab.com/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)](https://openai.com/api/)
+[![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)](https://www.langchain.com/)
+[![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)](https://www.langchain.com/langgraph)
+[![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat-square&logo=sqlite&logoColor=white)](https://sqlite.org)
+[![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)](https://github.com/pydantic/pydantic)
+[![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat-square&logo=astral&logoColor=white)](https://github.com/astral-sh/uv)
+[![ty](https://img.shields.io/badge/ty-DE5FE9?style=flat-square&logo=astral&logoColor=white)](https://github.com/astral-sh/ty)
+[![ruff](https://img.shields.io/badge/ruff-DE5FE9?style=flat-square&logo=astral&logoColor=white)](https://github.com/astral-sh/ruff)
+[![just](https://img.shields.io/badge/just-000000?style=flat-square&logo=just&logoColor=white)](https://github.com/casey/just)
+[![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)](https://docs.pytest.org/)
+[![Git](https://img.shields.io/badge/Git-2088FF?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/)
+[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/ladislav-lettovsky/ai-ehr-assistant/actions/workflows/ci.yml)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ladislav-lettovsky/ai-ehr-assistant)
 
 - ReAct agent with 4-node state machine: agent → tool → validate → policy
@@ -104,13 +158,19 @@ A production-ready, guardrailed patient-facing AI assistant that explains Electr
 
 A production-ready RAG pipeline that enables analysts to extract insights from lengthy business reports through natural-language queries.
 
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=flat-square)
-![GPT-4o-mini](https://img.shields.io/badge/GPT--4o--mini-412991?style=flat-square)
-![PyMuPDF](https://img.shields.io/badge/PyMuPDF-PDF_Processing-blue?style=flat-square)
-![BM25](https://img.shields.io/badge/BM25-Hybrid_Retrieval-green?style=flat-square)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/CI-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![OpenAI](https://custom-icon-badges.demolab.com/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)](https://openai.com/api/)
+[![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)](https://www.langchain.com/)
+[![PyMuPDF](https://img.shields.io/badge/PyMuPDF-0096D6?style=flat-square&logo=python&logoColor=white)](https://github.com/pymupdf/pymupdf)
+[![tiktoken](https://custom-icon-badges.demolab.com/badge/tiktoken-412991?style=flat-square&logo=openai&logoColor=white)](https://github.com/openai/tiktoken)
+[![BM25](https://img.shields.io/badge/BM25%20Ranking-4B5563?style=flat-square)](https://en.wikipedia.org/wiki/Okapi_BM25)
+[![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat-square&logo=astral&logoColor=white)](https://github.com/astral-sh/uv)
+[![ty](https://img.shields.io/badge/ty-DE5FE9?style=flat-square&logo=astral&logoColor=white)](https://github.com/astral-sh/ty)
+[![ruff](https://img.shields.io/badge/ruff-DE5FE9?style=flat-square&logo=astral&logoColor=white)](https://github.com/astral-sh/ruff)
+[![just](https://img.shields.io/badge/just-000000?style=flat-square&logo=just&logoColor=white)](https://github.com/casey/just)
+[![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)](https://docs.pytest.org/)
+[![Git](https://img.shields.io/badge/Git-2088FF?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/)
+[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/ladislav-lettovsky/ai-rag-knowledge-analyst/actions/workflows/ci.yml)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ladislav-lettovsky/ai-rag-knowledge-analyst)
 
 - Full RAG pipeline: PDF → chunking → embedding → Chroma → retrieval → generation
@@ -120,24 +180,6 @@ A production-ready RAG pipeline that enables analysts to extract insights from l
 
 ---
 
-## 🚀 Scaffold to Jump-Start New AI Project
-
-### [ai-project-template](https://github.com/ladislav-lettovsky/ai-project-template) — GitHub Template
-
-The scaffold that promotes modern AI-native repo architecture: Fork → Rename → Develop → Production-ready Deployment.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat-square)
-![just](https://img.shields.io/badge/just-4B5563?style=flat-square)
-![pre--commit](https://img.shields.io/badge/pre--commit-FAB040?style=flat-square&logo=precommit&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/CI-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ladislav-lettovsky/ai-project-template)
-
-- Opinionated AGENTS.md / CLAUDE.md / `.cursor/rules` setup — agent-ready from commit 1
-- Pre-configured `just check` pipeline (ruff + ty + pytest + pre-commit), CI green on first push
-- 8-step post-fork checklist, dependency-ordered — rename package first because `just check` fails until you do
-
 ---
 
 ## Background
@@ -145,7 +187,7 @@ The scaffold that promotes modern AI-native repo architecture: Fork → Rename �
 - **VP, Head of Sales Engineering** at Sabre Corporation (2022–2024) — Led airline IT solutions technical sales, 20+ solution architects, exceeded global sales target 2x
 - **Director, New Business Ventures & M&A** at Sabre Corporation (2009–2022) — Lead consultant for LATAM Airlines Group PSS implementation, 3 acquisitions + 1 divestiture ($40M+)
 - **2 US Patents** in airline network design and passenger reaccommodation
-- **Languages**: Czech (native) · English (native)
+- **Languages**: Czech · English
 
 ## Connect
 
