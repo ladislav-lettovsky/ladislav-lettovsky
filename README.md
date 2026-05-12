@@ -2,6 +2,7 @@
 
 **PhD, Industrial Engineering** · Georgia Institute of Technology |
 **MBA** · Cornell Johnson Graduate School of Management |
+**MS**, Operations Research · London School of Economics and Political Science |
 **Agentic AI Specialization** · UT Austin Postgraduate Program in AI/ML
 
 Strategic executive leader turned AI/ML practitioner — 15 years at Sabre Corporation (Airline IT solutions), VP of Technical Sales, Director of M&A ($40M+ portfolio), Research & Development (holder of 2 US patents in airline network optimization).
