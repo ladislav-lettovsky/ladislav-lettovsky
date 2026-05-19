@@ -50,7 +50,7 @@ I focus on designing and building:
 
 ### [ai-project-template](https://github.com/ladislav-lettovsky/ai-project-template) — GitHub Template
 
-A production-ready Python scaffold for **AI-native development**. Multi-agent governance (Planner → Executor → Reviewer), lint-enforced specs, and defense-in-depth guardrails — every PR is a verifiable trace, not a vibe. Fork → Plan → Execute → Review → Ship.
+A production-ready Python scaffold for **AI-native development**. The living template ships the full blueprint (**Phases 1–6**, v1): multi-agent governance, lint-enforced specs, deterministic PR routing, merge telemetry, and a scheduled spec queue. Every PR is a verifiable trace, not a vibe. **Use this template** → trim `docs/archive` on your fork → Plan → Execute → Review → Ship.
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)](https://docs.claude.com/en/docs/claude-code/overview)
@@ -70,7 +70,11 @@ A production-ready Python scaffold for **AI-native development**. Multi-agent go
 - **Defense-in-depth tripwires** — Claude Code lifecycle hooks (PreToolUse → red-zone block, UserPromptSubmit → branch-name guard, Stop → spec-lint guard) layer beneath pre-commit, `just check`, and CI; no safety property has a single point of failure
 - **Schema-validated Reviewer output** — Codex Reviewer emits JSON Schema 2020-12 findings (severity, type, evidence, requirement IDs, confidence) — never prose; malformed reviews auto-route to human, never silently merge
 - **Prompt-injection scanner** runs as part of `just check` against every LLM-input artifact in the repo (specs, persisted MCP outputs, web fetches)
-- **Phased blueprint with explicit exit criteria** — Phases 1–3 implemented (subagents + hooks, spec discipline, reviewer); Phases 4–6 (deterministic Router, telemetry, semi-autonomous endgame) road-mapped in `docs/blueprint.md`
+- **Blueprint Phases 1–6 implemented (v1)** — subagents + hooks, spec discipline, schema-valid Reviewer, deterministic Router, telemetry/adaptive thresholds, and scheduled executor; roadmap and exit criteria in [`docs/blueprint.md`](https://github.com/ladislav-lettovsky/ai-project-template/blob/main/docs/blueprint.md)
+- **Deterministic Router (Phase 4)** — `route-pr.yml` labels PRs `review:codex`, `review:human`, or `blocked` from `.routing-policy.json`; merge bots gate on label + green CI
+- **Telemetry & policy adaptation (Phase 5)** — `events.jsonl` on merge, `just telemetry-dashboard`, bounded `adapt-thresholds`; read-only GitHub MCP for Reviewer evidence
+- **Scheduled executor (Phase 6, v1)** — `scheduled-executor.yml` + `queue_specs.py` / `dispatch_spec.py` open stub PRs for T0+low `drafted` specs; Executor/Reviewer-in-CI is Phase 6.1
+- **Fork-ready archive** — active work in `docs/specs/` only; template history in `docs/archive/` (specs, exit-drill kits, spikes) — `rm -rf docs/archive` on new projects; **188+ tests**, `just check` matches CI
 
 ---
 
