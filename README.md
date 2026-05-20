@@ -72,7 +72,7 @@ GitHub Actions when `OPENAI_API_KEY` is configured. Every PR is a verifiable tra
 - **Three-agent system with runtime-enforced role separation** — Planner (Claude Code, read-only Plan Mode), Executor (Codex, workspace-write sandbox), Reviewer (Codex, read-only sandbox); roles enforced by the runtime, not by prompts
 - **Spec-driven flow** — every PR cites a lint-enforced Markdown spec under `docs/specs/` with risk tiers (T0–T3), requirement → test mappings, and red-zone assessment; `lint_spec.py` rejects any spec missing a required section
 - **Defense-in-depth tripwires** — Claude Code lifecycle hooks (PreToolUse → red-zone block, UserPromptSubmit → branch-name guard, Stop → spec-lint guard) layer beneath pre-commit, `just check`, and CI; no safety property has a single point of failure
-- **Schema-validated Reviewer output** — Codex Reviewer emits JSON Schema 2020-12 findings (severity, type, evidence, requirement IDs, confidence) — never prose; malformed reviews auto-route to human, never silently merge
+- **Schema-validated Reviewer output** — Codex Reviewer emits findings (severity, type, evidence, requirement IDs, confidence) as JSON Schema — never prose; malformed reviews auto-route to human, never silently merge
 - **Prompt-injection scanner** runs as part of `just check` against every LLM-input artifact in the repo (specs, persisted MCP outputs, web fetches)
 - **Governance blueprint** — invariants, rollout history, and operator guides in [`docs/blueprint.md`](https://github.com/ladislav-lettovsky/ai-project-template/blob/main/docs/blueprint.md)
 - **Deterministic Router** — `route-pr.yml` labels PRs `review:codex`, `review:human`, or `blocked` from `.routing-policy.json`; merge bots gate on label + green CI
