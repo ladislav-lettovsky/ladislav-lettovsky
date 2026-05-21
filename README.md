@@ -44,9 +44,9 @@ I focus on designing and building:
 [![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)](https://docs.pytest.org/)
 [![Git](https://img.shields.io/badge/Git-2088FF?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
 [![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://docs.github.com/en/actions)
-[![Cursor](https://img.shields.io/badge/Cursor(IDE)-000000?style=for-the-badge&logo=cursor&logoColor=white)](https://www.cursor.com)
-[![Claude](https://img.shields.io/badge/Claude(PLANNER)-D97757?style=for-the-badge&logo=claude&logoColor=white)](https://claude.ai)
-[![Codex](https://custom-icon-badges.demolab.com/badge/codex(EXECUTOR|REVIEWER)-5b71ff?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com)
+[![Cursor](https://img.shields.io/badge/Cursor_(IDE)-000000?style=for-the-badge&logo=cursor&logoColor=white)](https://www.cursor.com)
+[![Claude Code](https://img.shields.io/badge/Claude_Code_(PLANNER)-D97757?style=for-the-badge&logo=claude&logoColor=white)](https://docs.claude.com/en/docs/claude-code/overview)
+[![Codex](https://custom-icon-badges.demolab.com/badge/Codex_(EXECUTOR|REVIEWER)-5b71ff?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com)
 
 
 ## 🚀 Scaffold to Jump-Start New AI Project
