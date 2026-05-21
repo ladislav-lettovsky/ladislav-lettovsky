@@ -46,7 +46,7 @@ I focus on designing and building:
 [![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://docs.github.com/en/actions)
 [![Cursor](https://img.shields.io/badge/Cursor_(IDE)-000000?style=for-the-badge&logo=cursor&logoColor=white)](https://www.cursor.com)
 [![Claude Code](https://img.shields.io/badge/Claude_Code_(PLANNER)-D97757?style=for-the-badge&logo=claude&logoColor=white)](https://docs.claude.com/en/docs/claude-code/overview)
-[![Codex](https://custom-icon-badges.demolab.com/badge/Codex_(EXECUTOR|REVIEWER)-5b71ff?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com)
+[![Codex](https://custom-icon-badges.demolab.com/badge/Codex_(EXECUTOR|REVIEWER)-5b71ff?style=for-the-badge&logo=openai&logoColor=white)](https://developers.openai.com/codex)
 
 
 ## 🚀 Scaffold to Jump-Start New AI Project
@@ -60,8 +60,8 @@ GitHub Actions when `OPENAI_API_KEY` is configured. Every PR is a verifiable tra
 **Use this template** → trim `docs/archive` on your fork → Plan → Execute → Review → Ship.
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)](https://docs.claude.com/en/docs/claude-code/overview)
-[![Codex](https://img.shields.io/badge/Codex-412991?style=flat-square&logo=openai&logoColor=white)](https://github.com/openai/codex)
+[![Claude Code](https://img.shields.io/badge/Claude_Code_(PLANNER)-D97757?style=flat-square&logo=claude&logoColor=white)](https://docs.claude.com/en/docs/claude-code/overview)
+[![Codex](https://custom-icon-badges.demolab.com/badge/Codex_(EXECUTOR|REVIEWER)-5b71ff?style=flat-square&logo=openai&logoColor=white)](https://developers.openai.com/codex)
 [![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat-square&logo=astral&logoColor=white)](https://github.com/astral-sh/uv)
 [![ty](https://img.shields.io/badge/ty-DE5FE9?style=flat-square&logo=astral&logoColor=white)](https://github.com/astral-sh/ty)
 [![ruff](https://img.shields.io/badge/ruff-DE5FE9?style=flat-square&logo=astral&logoColor=white)](https://github.com/astral-sh/ruff)
