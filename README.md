@@ -81,7 +81,7 @@ GitHub Actions when `OPENAI_API_KEY` is configured. Every PR is a verifiable tra
 - **Deterministic Router** — `route-pr.yml` labels PRs `review:codex`, `review:human`, or `blocked` from `.routing-policy.json`; merge bots gate on label + green CI
 - **Telemetry & adaptive thresholds** — `events.jsonl` on merge, `just telemetry-dashboard`, bounded `adapt-thresholds`; read-only GitHub MCP for Reviewer evidence; Planner GitHub MCP for spec drafting
 - **Scheduled executor & Codex-in-CI** — `scheduled-executor.yml` (cron + manual dispatch) runs `queue_specs.py` and `dispatch_spec.py` to open stub PRs for eligible T0+low `drafted` specs; with `OPENAI_API_KEY`, separate `codex_executor` / `codex_reviewer` jobs use `openai/codex-action@v1`, commit implementation, merge Reviewer JSON into the PR body, and validate with `scripts/validate_reviewer.py` (without the secret, transport stops at open PR for human or local Codex)
-- **Fork-ready archive** — active work in `docs/specs/` only; template history in `docs/archive/` (specs, exit-drill kits, spikes) — `rm -rf docs/archive` on new projects; **183+ tests**, `just check` matches CI
+- **Fork-ready archive** — active work in `docs/specs/` only; template history in `docs/archive/` (specs, exit-drill kits, spikes) — `rm -rf docs/archive` on new projects; **222 tests**, `just check` matches CI
 
 ---
 
