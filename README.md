@@ -136,7 +136,7 @@ A production-ready multi-agent system that detects, triages, resolves, and commu
 - Multi-agent orchestration with supervisor pattern and specialized worker agents
 - Vector similarity search (Chroma + HuggingFace embeddings) for resolution matching
 - End-to-end pipeline: detection → triage → resolution → customer notification
-- CLI with structured JSON output, terminal reports, and configurable logging — **43 tests passing**
+- CLI with structured JSON output, terminal reports, and configurable logging
 
 ---
 
@@ -187,7 +187,7 @@ A production-ready RAG pipeline that enables analysts to extract insights from l
 
 - Full RAG pipeline: PDF → chunking → embedding → Chroma → retrieval → generation
 - Three-mode comparison: raw LLM vs. prompt-engineered vs. RAG (grounded)
-- CLI with `--mode`, `--evaluate`, `--report` flags and structured JSON output — **12 tests passing**
+- CLI with `--mode`, `--evaluate`, `--report` flags and structured JSON output
 - RAG achieves **1.0 groundedness** where plain LLM scores 0.0
 
 ---
